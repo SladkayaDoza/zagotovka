@@ -1,0 +1,204 @@
+body {
+	background-color: #2A2A2A;
+	margin: 0px;
+}
+
+.head {
+	width: 100%;
+	height: 50px;
+	background-color: #E1E1E1;
+	margin: 0px;
+}
+
+.text_header {
+	color: #474747;
+	font-family: Comic Sans MS;
+	font-size: 25px;
+	margin: 0px;
+	top: 10px;
+	padding: 6px;
+}
+
+.cat_t {
+	margin: 8px;
+	color: white;
+	font-size: 46px;
+	font-family: Comic Sans MS;
+	text-align: center;
+}
+
+.block {
+	width: 80%;
+	padding: : 50px;
+	height: 700px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+
+.text_1 {
+	width: 100%
+}
+
+.scroll {
+	width: 80%;
+	white-space: nowrap;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.block_2 {
+	margin: 30px;
+	display: flex;
+	width: 500px;
+	height: 300px;
+	margin-left: auto;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.block_3 {
+	margin: 30px;
+	display: flex;
+	width: 500px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.block_4 {
+	margin: 30px;
+	display: flex;
+	width: 500px;
+	height: 300px;
+	margin-right: auto;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.footer {
+	background: #474747;
+	width: 100%;
+	height: 50px;
+	bottom: 0px;
+	position: flex;
+}
+
+.mail {
+	color: #D5D5D5;
+	font-family: Comic Sans MS;
+	position: absolute;
+	right: 15px;
+	margin: 15px;
+	margin-top: 13px;
+}
+
+
+
+
+@media screen and (max-width: 1600px) {
+	.block {
+		height: 600px;
+	}
+
+	.block_2 {
+		height: 250px;
+	}
+
+	.block_3 {
+		height: 250px;
+	}
+
+	.block_4 {
+		height: 250px;
+	}
+
+	.footer {
+		height: 50px;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	.block {
+		height: 500px;
+	}
+
+	.block_2 {
+		height: 200px;
+	}
+
+	.block_3 {
+		height: 200px;
+	}
+
+	.block_4 {
+		height: 200px;
+	}
+
+	.footer {
+		height: 75px;
+		position: fixed;
+	}
+
+	.mail {
+	right: 15px;
+	margin: 20px;
+	margin-top: 21px;
+	font-size: 21px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.block {
+		height: 450px;
+	}
+
+	.block_2 {
+		height: 175px;
+	}
+
+	.block_3 {
+		height: 175px;
+	}
+
+	.block_4 {
+		height: 175px;
+	}
+
+	.footer {
+		height: 100px;
+	}
+
+	.mail {
+	right: 15px;
+	margin: 20px;
+	margin-top: 27px;
+	font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 870px) {
+	.block {
+		height: 400px;
+	}
+
+	.block_2 {
+		height: 150px;
+	}
+
+	.block_3 {
+		height: 150px;
+	}
+
+	.block_4 {
+		height: 150px;
+	}
+
+	.footer {
+		height: 100px;
+	}
+}
