@@ -1,6 +1,8 @@
 body {
 	background-color: #2A2A2A;
 	margin: 0px;
+	background-image: url(
+		b.webp);
 }
 
 .head {
