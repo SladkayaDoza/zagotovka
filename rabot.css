@@ -90,7 +90,7 @@ body {
 	margin-bottom: 50px;
 	display: flex;
 	width: 95%;
-	height: 300px;
+	height: 60%;
 	background-color: white;
 	border-radius: 5px;
 }
@@ -145,6 +145,14 @@ body {
 	right: 15px;
 	margin: 15px;
 	margin-top: 13px;
+}
+
+.up_block {
+	text-align: center;
+	color: white;
+	font-family: "hermes";
+	font-size: 40px;
+	margin: 10px;
 }
 
 @media screen and (max-width: 1600px) {
@@ -226,6 +234,10 @@ body {
 	margin-top: 27px;
 	font-size: 30px;
 	}
+
+	.up_block {
+		font-size: 30px;
+	}
 }
 
 @media screen and (max-width: 870px) {
@@ -253,6 +265,10 @@ body {
 @media screen and (max-width: 800px) {
 	.block {
 		height: 100%;
+	}
+
+	.up_block {
+		font-size: 25px;
 	}
 }
 
@@ -316,12 +332,4 @@ body {
   animation: rota 4s infinite normal;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-}
-
-.up_block {
-	text-align: center;
-	color: white;
-	font-family: "hermes";
-	font-size: 40px;
-	margin: 10px;
 }
