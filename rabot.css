@@ -7,6 +7,7 @@
 @font-face {
     font-family: MS; /* Гарнитура шрифта */
     src: url(fonts/MS.eot); /* Для IE5-8 */
+    src: url(fonts/MS.ttf);
     src: local(MS), url(fonts/MS.ttf); /* Для остальных браузеров */
    }
 
@@ -26,7 +27,7 @@ body {
 
 .text_header {
 	color: #474747;
-	font-family: MS;
+	font-family: "MS";
 	font-size: 25px;
 	margin: 0px;
 	top: 10px;
@@ -37,7 +38,7 @@ body {
 	margin: 8px;
 	color: white;
 	font-size: 46px;
-	font-family: MS;
+	font-family: "MS";
 	text-align: center;
 }
 
@@ -132,7 +133,7 @@ body {
 
 .mail {
 	color: #D5D5D5;
-	font-family: MS;
+	font-family: "MS";
 	position: absolute;
 	right: 15px;
 	margin: 15px;
@@ -308,7 +309,7 @@ body {
 .up_block {
 	text-align: center;
 	color: white;
-	font-family: hermes;
+	font-family: "hermes";
 	font-size: 40px;
 	margin: 10px;
 }
