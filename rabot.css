@@ -4,6 +4,12 @@
     src: local(hermes), url(fonts/hermes.ttf); /* Для остальных браузеров */
    }
 
+@font-face {
+	font-family: MS; /* Гарнитура шрифта */
+    src: url(fonts/MS.eot); /* Для IE5-8 */
+    src: local(MS), url(fonts/MS.ttf); /* Для остальных браузеров */
+}
+
 body {
 	background-color: #2A2A2A;
 	margin: 0px;
@@ -20,7 +26,7 @@ body {
 
 .text_header {
 	color: #474747;
-	font-family: Comic Sans MS;
+	font-family: MS;
 	font-size: 25px;
 	margin: 0px;
 	top: 10px;
@@ -31,7 +37,7 @@ body {
 	margin: 8px;
 	color: white;
 	font-size: 46px;
-	font-family: Comic Sans MS;
+	font-family: MS;
 	text-align: center;
 }
 
@@ -126,7 +132,7 @@ body {
 
 .mail {
 	color: #D5D5D5;
-	font-family: Comic Sans MS;
+	font-family: MS;
 	position: absolute;
 	right: 15px;
 	margin: 15px;
