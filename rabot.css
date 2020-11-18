@@ -90,7 +90,7 @@ body {
 	margin-bottom: 50px;
 	display: flex;
 	width: 95%;
-	height: 60%;
+	height: 70%;
 	background-color: white;
 	border-radius: 5px;
 }
@@ -161,7 +161,7 @@ body {
 	}
 
 	.block_2 {
-		height: 60%; /* 250px */
+		height: 70%; /* 250px */
 	}
 
 	.block_3 {
@@ -183,7 +183,7 @@ body {
 	}
 
 	.block_2 {
-		height: 60%; /* 200px */
+		height: 65%; /* 200px */
 	}
 
 	.block_3 {
