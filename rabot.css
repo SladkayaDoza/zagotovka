@@ -2,11 +2,14 @@
     font-family: Hermes; /* Гарнитура шрифта */
     src: url(fonts/hermes.eot); /* Для IE5-8 */
     src: local(hermes), url(fonts/hermes.ttf); /* Для остальных браузеров */
+   }
 
+@font-face {
     font-family: MS; /* Гарнитура шрифта */
     src: url(fonts/MS.eot); /* Для IE5-8 */
     src: local(MS), url(fonts/MS.ttf); /* Для остальных браузеров */
    }
+
 body {
 	background-color: #2A2A2A;
 	margin: 0px;
