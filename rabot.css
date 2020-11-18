@@ -149,11 +149,11 @@ body {
 
 @media screen and (max-width: 1600px) {
 	.block {
-		height: 600px;
+		height: 100%;
 	}
 
 	.block_2 {
-		height: 250px;
+		height: 60%; /* 250px */
 	}
 
 	.block_3 {
@@ -171,11 +171,11 @@ body {
 
 @media screen and (max-width: 1300px) {
 	.block {
-		height: 500px;
+		height: 100%;
 	}
 
 	.block_2 {
-		height: 200px;
+		height: 60%; /* 200px */
 	}
 
 	.block_3 {
@@ -201,11 +201,11 @@ body {
 
 @media screen and (max-width: 1000px) {
 	.block {
-		height: 450px;
+		height: 100%;
 	}
 
 	.block_2 {
-		height: 175px;
+		height: 60%; /* 175px */
 	}
 
 	.block_3 {
@@ -230,11 +230,11 @@ body {
 
 @media screen and (max-width: 870px) {
 	.block {
-		height: 400px;
+		height: 100%;
 	}
 
 	.block_2 {
-		height: 150px;
+		height: 60%; /* 150px */
 	}
 
 	.block_3 {
@@ -250,6 +250,11 @@ body {
 	}
 }
 
+@media screen and (max-width: 800px) {
+	.block {
+		height: 100%;
+	}
+}
 
 /* картинка на странице */
 .img_2 {
