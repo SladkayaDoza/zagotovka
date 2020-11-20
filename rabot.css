@@ -40,12 +40,32 @@ body {
 	margin-right: auto;
 }
 
+@keyframes ccolor {   
+  0% {
+ color: #D97EC2;
+ }
+ 33% {
+ color: #D9FF5B;
+ }
+ 66% {
+ color: #7FD1E8;
+ }
+ 100% {
+ color: #D97EC2;
+ }
+}
+
 .cat_t {
 	margin: 8px;
 	color: white;
 	font-size: 46px;
 	font-family: "MS";
 	text-align: center;
+	cursor: default;
+}
+
+.cat_t:hover {
+	animation: ccolor 4s linear infinite;
 }
 
 .block {
@@ -59,7 +79,9 @@ body {
 }
 
 .text_1 {
-	width: 100%
+	width: 5%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .blocky {
