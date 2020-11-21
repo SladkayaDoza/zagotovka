@@ -42,17 +42,43 @@ body {
 
 @keyframes ccolor {   
   0% {
- color: #D97EC2;
+ color: #FFFFFF;
  }
- 33% {
- color: #D9FF5B;
+ 25% {
+ color: #D9FF96;
  }
- 66% {
+ 50% {
  color: #7FD1E8;
  }
- 100% {
+ 75% {
  color: #D97EC2;
  }
+ 100% {
+ color: #FFFFFF;
+ }
+}
+
+.vub {
+	width: 79%;
+	height: 10px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	opacity: 70%;
+	border-radius: 2px;
+}
+
+.t_vub {
+	color: white;
+	font-family: hermes;
+	font-size: 60px;
+	margin: 2px;
+	margin-left: 13%;
+	cursor: default;
+}
+
+.t_vub:hover {
+	animation: ccolor 4s linear infinite;
 }
 
 .cat_t {
@@ -226,6 +252,10 @@ body {
 	margin: 20px;
 	margin-top: 21px;
 	font-size: 21px;
+	}
+
+	.vub {
+		height: 7px;
 	}
 }
 
