@@ -30,3 +30,7 @@ $('.spoiler-title').click(function(){
     }
 });
 });
+
+function countRabbits() {
+      alert("Вы нажали на Cat");
+    }
