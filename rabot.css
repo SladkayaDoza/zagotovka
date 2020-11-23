@@ -18,12 +18,6 @@ body {
 		image/b.webp);
 }
 
-.secret {
-	width: 10px;
-	height: 10px;
-	opacity: 0%;
-}
-
 .head {
 	width: 100%;
 	height: 50px;
