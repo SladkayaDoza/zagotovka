@@ -34,3 +34,21 @@ $('.spoiler-title').click(function(){
 function countRabbits() {
       alert("Вы нажали на Cat");
     }
+
+
+var fff = (1);
+function ff() {
+  if (fff=="3") {
+    alert("вы нажали на Cat "+ 3 +" раза!");
+    fff++;
+  }
+  else if (fff=="2") {
+    fff++;
+  }
+  else if (fff>"7") {
+    alert("ну зачем вы нажимаете на Cat? ему больно.")
+  }
+  else {
+    fff++;
+  }
+}
